@@ -44,9 +44,10 @@ main {
   height: 400px;
   margin: 19px;
   background: #000;
+  border-radius: 10px;
 }
 .box img {
-  width: 200px;
+  height: 280px;
   margin: 10px auto;
 }
 .box .artist {
