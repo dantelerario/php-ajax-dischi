@@ -1,5 +1,4 @@
 $(document).ready( function() {
-  console.log('ok');
 
   //ref
   var container = $('.container');
@@ -14,7 +13,7 @@ $(document).ready( function() {
     method: 'GET',
     success: function(res) {
       console.log(res);
-      for (var i = 0; i < res.lenght; i++) {
+      for (var i = 0; i < res.length; i++) {
         var context = {
           img: res[i].img,
           artist: res[i].artist,
