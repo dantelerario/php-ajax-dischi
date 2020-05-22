@@ -2,6 +2,7 @@ $(document).ready( function() {
 
   //ref
   var container = $('.container');
+  var filter = $('.album_filter');
 
   //handlebars
   var source = $('#template').html();
@@ -30,5 +31,10 @@ $(document).ready( function() {
       console.log('Errore');
     }
   });
+
+  //filter
+  // filter.on('change', function() {
+  //   var genre = $(this).val();
+  // });
 
 }); //END DOCUMENT READY

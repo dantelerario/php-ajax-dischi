@@ -16,6 +16,12 @@
       ?>
       <!-- MAIN -->
       <main>
+        <select class="album_filter" name="album_filter">
+          <option value="all">All</option>
+          <option value="heavy">Heavy Metal</option>
+          <option value="rock">Rock</option>
+          <option value="rap">Rap</option>
+        </select>
         <div class="container">
 
         </div>
